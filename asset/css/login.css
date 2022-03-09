@@ -17,7 +17,7 @@ body {
 }
 
 .box-img {
-    background: url(/assets/image/computer.jpg) center no-repeat;
+    background: url(/asset/image/computer.jpg) center no-repeat;
     background-size: cover;
 }
 
