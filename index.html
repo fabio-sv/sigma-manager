@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../asset/css/standard.css">
+    <link rel="stylesheet" href="../asset/css/login.css">
+</head>
+
+<body>
+    <main id="container">
+        <div class="box-img"></div>
+        <div class="box-form">
+            <div class="log-in">
+                <h1 class="title">Log in</h1>
+                <form action="POST" name="formLogin">
+                    <input class="input-form" type="email" name="email" id="email" placeholder="E-mail" required>
+                    <input class="input-form" type="password" name="password" id="password" placeholder="Senha"
+                        required>
+                    <input class="btn-form" type="button" value="Entrar" onclick="login()">
+                </form>
+                <span class="link-sign-in">
+                    <a href="#" onclick="signIn()">Cadastre-se aqui</a>
+                </span>
+            </div>
+            <div class="sign-in">
+                <span onclick="closeSignIn()" class="btn-close">
+                    <img src="/asset/image/btn-close.png" alt="">
+                </span>
+                <h1 class="title">Sign in</h1>
+                <form action="">
+                    <input class="input-form" type="text" id="firt-name" placeholder="Nome">
+                    <input class="input-form" type="text" id="last-name" placeholder="Sobrenome">
+                    <input class="input-form" type="email" id="email-cad" placeholder="E-mail">
+                    <input class="input-form" type="password" id="password-1" placeholder="Senha">
+                    <input class="btn-form" type="submit" id="btn-sign-in" value="Cadastrar" onclick="">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="asset/js/login.js"></script>
+</body>
+
+</html>
